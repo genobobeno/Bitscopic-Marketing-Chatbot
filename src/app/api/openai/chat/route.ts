@@ -3,6 +3,8 @@ import { convertToCoreMessages, streamText } from "ai";
 
 export const runtime = "edge";
 
+const assistantId = "asst_ndJbs5TXDlppEPxAs7jlqWE4";
+
 export async function POST(req: Request) {
   const { messages } = await req.json();
   const result = await streamText({
