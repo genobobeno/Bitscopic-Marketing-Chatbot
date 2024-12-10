@@ -89,7 +89,7 @@ export function AIChatInterface() {
         <div className="flex-1 overflow-y-auto p-4">
           {messages.length === 0 ? (
             <div className="text-gray-900 text-center mt-8">
-              Start a conversation by typing a message below.
+              Hi! Tell me about yourself and what brings you to Bitscopic's site?
             </div>
           ) : (
             <MessageList messages={messages} />
